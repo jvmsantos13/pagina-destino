@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(fonts/Gilroy-ExtraBold.otf);
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy-Light, sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.col-left {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-center {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
