@@ -24,6 +24,17 @@ h1 {
     font-size: 1.75rem;
 }
 
+h2 {
+    font-family: "Gilroy-ExtraBoldtra", sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h3 {
+
+}
+
 ol {
     margin: 4rem;
     padding: 0;
@@ -66,8 +77,16 @@ a {
     color: white;
 }
 
+.center {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem 6rem;
+}
+
 .col-center {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
 }
@@ -132,3 +151,37 @@ a {
     border-bottom: 1px solid white;
 }
 
+.spanh2 {
+    color: white;
+    text-shadow: -1px -1px 0, 1px -1px 0 #e39074, -1px 1px 0 #e39074, 1px 1px 0 #e39074;
+}
+
+.spanh3 {
+    font-family: "Gilrou-ExtraBold", sans-serif;
+}
+
+.hero {
+    flex: 3;
+    background-image: url(img/hero.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 6rem;
+}
+
+.container {
+    width: 80%;
+}
+
+.containerh2 {
+    color: white;
+    font-family: "Gilrou-ExtraBold", sans-serif;
+    font-size: 3rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
