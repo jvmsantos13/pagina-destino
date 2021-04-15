@@ -9,7 +9,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - CSS
 
 <h4 align="center"> 
-Projeto em desenvolvimento :construction:
+:construction: Projeto em desenvolvimento :construction:
 </h4>
 
 *Link do projeto:* https://jvmsantos13.github.io/Pagina-Destino/
