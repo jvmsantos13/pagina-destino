@@ -20,6 +20,8 @@ body {
 
 h1 {
     margin: 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 ol {
@@ -37,7 +39,9 @@ li {
 
 li:before {
     position: absolute;
-    color: rgb (122, 122, 122);
+    color: rgb(122, 122, 122);
+    content: "0" counter(menucounter);
+    top: -20px;
 }
 
 li::marker {
@@ -47,8 +51,6 @@ li::marker {
 a {
     text-decoration: none;
     color: rgb(192, 192, 192);
-    content: "0" counter(menucounter);
-    top: -20px;
 }
 
 .page-wrapper {
@@ -79,8 +81,23 @@ a {
 .menu {
     flex: 3;
     padding: 2rem 4rem;
+    overflow: hidden;
 }
 
 .footer {
     flex: 2;
+}
+
+.detach::before {
+    color: white;
+}
+
+.detach::after {
+    width: 200%;
+    position: absolute;
+    height: 1px;
+    content: "";
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid white;
 }
