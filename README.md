@@ -14,8 +14,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 *Link do projeto:* https://jvmsantos13.github.io/Pagina-Destino/
 
-![](-)
-
 ## Autor
 João Victor Monteiro <br />
 https://www.linkedin.com/in/jvmsantos/
