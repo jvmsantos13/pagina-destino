@@ -18,6 +18,20 @@ body {
     font-family: "Gilroy-Light", sans-serif;
 }
 
+h1 {
+    margin: 0;
+}
+
+ol {
+    margin: 4rem;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .page-wrapper {
     display: flex;
     height: 100vh;
