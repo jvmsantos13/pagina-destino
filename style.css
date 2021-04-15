@@ -42,3 +42,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.menu {
+    flex: 3;
+    padding: 2rem 4rem;
+}
+
+.footer {
+    flex: 2;
+}
