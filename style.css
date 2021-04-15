@@ -27,9 +27,28 @@ ol {
     padding: 0;
 }
 
+li {
+    font-size: 1.25rem;
+    margin: 3rem 0;
+    padding: 0.5rem 0;
+    position: relative;
+    counter-increment: menucounter;
+}
+
+li:before {
+    position: absolute;
+    color: rgb (122, 122, 122);
+}
+
+li::marker {
+    font-size: 0;
+}
+
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(192, 192, 192);
+    content: "0" counter(menucounter);
+    top: -20px;
 }
 
 .page-wrapper {
