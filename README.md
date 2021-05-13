@@ -1,5 +1,5 @@
 ## Página Destino
-<p align="center">Projeto criado com novos conhecimentos em HTML e CSS, utilizando bastante conceitos de desing.</p>
+<p align="center">Projeto criado com novos conhecimentos em HTML e CSS em proposta a um desafio que encontrei no YouTube, utilizando bastante conceitos de desing.</p>
 
 ### 🛠 Tecnologias
 
