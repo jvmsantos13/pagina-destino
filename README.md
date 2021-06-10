@@ -12,7 +12,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 :construction: Projeto em desenvolvimento :construction:
 </h4>
 
-<img src="img/pagina.png">
+<img src="img/pag-captura.png">
 
 *Link do projeto:* https://jvmsantos13.github.io/Pagina-Destino/
 
